@@ -16,6 +16,26 @@
     font-weight: 600;
     font-size: 18px;
 }
+button:hover {
+    background-color: rgba(255, 91, 91, 0.499);
+    color: black;
+    box-shadow: 0 0 5px 2px rgba(0, 36, 4, 0.623);   
+}
+#header button:hover {
+    background-color: rgba(255, 91, 91, 0.499);
+    color: black;
+    border-color: black;
+    box-shadow: 0 0 5px 2px rgba(0, 36, 4, 0.623);   
+}
+#card2 button:hover {
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    box-shadow: 0 0 5px 2px rgba(0, 36, 4, 0.623);   
+}
+button:active {
+    transform: scale(0.95);
+}
 
 body {
     background-color: #f5f5f5;
@@ -36,7 +56,10 @@ main>* {
     height: 50px;
     font-size: 24px;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;    
+}
 #header button {
     border: 2px solid rgb(0, 106, 80);
     border-radius: 10px;
@@ -83,7 +106,6 @@ main>* {
     margin: 20px 30px 0 0;
     padding: 20px;
     flex: 1;
-    /* box-shadow: 0 0 25px rgb(171, 170, 170); */
 }
 #card1 img {
     margin-bottom: 24px;
@@ -95,6 +117,9 @@ main>* {
 
 #card1 p {
     color: rgb(14, 14, 14, 0.7);
+}
+#crdhov:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* card view 2 section  */
@@ -132,6 +157,9 @@ main>* {
     font-size: 14px;
     margin-bottom: 24px;
 }
+#crdhov2:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
 
 /* quote section */
 #quote {
@@ -144,7 +172,7 @@ main>* {
     /* box-shadow: 0 0 25px rgb(171, 170, 170); */
     height: max-content;
     padding: 48px 24px;
-    color: rgb(14, 14, 14, 0.6);
+    color: rgb(14, 14, 14, 0.7);
 
 }
 
@@ -220,6 +248,7 @@ main>* {
     margin-bottom: 20px;
 }
 .news_card p {
+    margin-top: 15px;
     margin-bottom: 35px;
 }
 .news_card button {
@@ -263,6 +292,10 @@ main>* {
     padding: 15px 0;
     border: none;
     border-bottom: 1px solid rgba(14, 14, 14, 0.3);
+}
+#dnthov:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    background-color: rgba(3, 202, 152, 0.19);
 }
 
 /* subscribe section */

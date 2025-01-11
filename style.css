@@ -182,10 +182,6 @@ a {
 }
 
 /* Opinion Section */
-#opitable:hover {
-    box-shadow: 0 0 5px rgb(0, 0, 0);
-}
-
 #opihead h1 {
     font-size: 40px;
     margin-bottom: 25px;
@@ -234,6 +230,12 @@ a {
 
 #opihead .tdselct {
     text-align: center;
+}
+td:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+th:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* news section */

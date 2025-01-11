@@ -93,6 +93,9 @@ a {
     font-size: 56px;
     padding-right: 100px;
 }
+#hero:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
 
 /* card view 1 section  */
 #card1 {
@@ -173,11 +176,15 @@ a {
     height: max-content;
     padding: 48px 24px;
     color: rgb(14, 14, 14, 0.7);
-
+}
+#quote:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* Opinion Section */
-#opihead {}
+#opitable:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
 
 #opihead h1 {
     font-size: 40px;
@@ -256,6 +263,9 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
+.news_card:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
 
 /* donate section */
 #dnt {
@@ -296,6 +306,9 @@ a {
 #dnthov:hover {
     box-shadow: 0 0 5px rgb(0, 0, 0);
     background-color: rgba(3, 202, 152, 0.19);
+}
+#otramnt:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* subscribe section */
@@ -338,6 +351,12 @@ a {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-bottom: 35px;
+}
+.subnews:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+#inphov:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 /* footer  */

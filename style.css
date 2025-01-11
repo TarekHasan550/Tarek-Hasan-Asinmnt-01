@@ -17,12 +17,12 @@
     font-size: 18px;
 }
 button:hover {
-    background-color: rgba(255, 91, 91, 0.499);
+    background-color: rgba(99, 255, 91, 0.499);
     color: black;
     box-shadow: 0 0 5px 2px rgba(0, 36, 4, 0.623);   
 }
 #header button:hover {
-    background-color: rgba(255, 91, 91, 0.499);
+    background-color: rgba(99, 255, 91, 0.499);
     color: black;
     border-color: black;
     box-shadow: 0 0 5px 2px rgba(0, 36, 4, 0.623);   
@@ -168,7 +168,7 @@ a {
 #quote {
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 25px 30px;
+    background-position: 25px 20px;
     background-color: #fff;
     border-radius: 15px;
     border: 1px solid rgba(14, 14, 14, 0.25);
@@ -183,7 +183,6 @@ a {
 
 /* Opinion Section */
 #opihead h1 {
-    font-size: 40px;
     margin-bottom: 25px;
     font-size: 40px;
     font-weight: 400;
@@ -239,6 +238,14 @@ th:hover {
 }
 
 /* news section */
+#news h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#news p{
+    margin: 24px 0 32px;
+    color: rgba(14, 14, 14, 0.6);
+}
 .news_card {
     display: flex;
     align-items: center;
@@ -307,7 +314,7 @@ th:hover {
 }
 #dnthov:hover {
     box-shadow: 0 0 5px rgb(0, 0, 0);
-    background-color: rgba(3, 202, 152, 0.19);
+    background-color: rgba(99, 255, 91, 0.499) !important;
 }
 #otramnt:hover {
     box-shadow: 0 0 5px rgb(0, 0, 0);
